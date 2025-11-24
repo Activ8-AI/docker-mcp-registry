@@ -1,7 +1,7 @@
 # MASTER META MEGA CODEX CONTAINER — MAOS ACTIVATION STACK (v1)
 
 ## Preface — Charter Standard Execution
-- **TAO (The Way: Truth – Accountability – Oder)** governs every artifact using the approved terminology library.
+- **TAO (The Way: Trust - Authority - Order)** governs every artifact using the approved terminology library.
 - Charter supremacy enforced through STOP–RESET–REALIGN and dual-agent backup.
 - All timestamps recorded in America/Chicago.
 
