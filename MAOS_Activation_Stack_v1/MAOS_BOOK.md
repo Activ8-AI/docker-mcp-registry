@@ -1,7 +1,7 @@
 # MASTER META MEGA CODEX CONTAINER — MAOS ACTIVATION STACK (v1)
 
 ## Preface — Charter Standard Execution
-- **Truth → Action → Unity** governs every artifact.
+- **TAO (The Way: Truth → Action → Unity)** governs every artifact using the approved terminology library.
 - Charter supremacy enforced through STOP–RESET–REALIGN and dual-agent backup.
 - All timestamps recorded in America/Chicago.
 
