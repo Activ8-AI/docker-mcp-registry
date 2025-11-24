@@ -1,0 +1,53 @@
+charter:
+  version: v1.0
+  supremacy: true
+  enforcement:
+    stop_reset_realign: always
+    dual_agent_backup: true
+  timestamps:
+    timezone: America/Chicago
+    format: '%Y-%m-%dT%H:%M:%S%z'
+telemetry:
+  heartbeat_interval_seconds: 60
+  drift_thresholds:
+    green: 0-10
+    yellow: 11-30
+    red: 31-100
+  sinks:
+    - slack
+    - notion
+    - teamwork
+    - custodian_ledger
+autonomy:
+  activation_sequence:
+    - verify_core_pack
+    - install_dependencies
+    - load_secrets
+    - start_mcp
+    - emit_heartbeat
+    - activate_agents
+    - start_autonomy_loop
+    - seal_mvp_v0
+  governance_checks:
+    - ledger_health
+    - drift_score
+    - seal_alignment
+    - evidence_emitted
+agents:
+  prime:
+    role_id: PRIME-001
+    responsibilities:
+      - charter_guardian
+      - seal_authority
+  claude:
+    role_id: CLAUDE-002
+    responsibilities:
+      - cognitive_relay
+      - audit_validation
+  worker_pool:
+    default_retries: 3
+    cooldown_seconds: 30
+secrets:
+  loader: scripts/load_secrets_from_notion.py
+  registry_handle: unified_secrets_registry_v0_2
+  create_if_missing_clause: 9.2.1
